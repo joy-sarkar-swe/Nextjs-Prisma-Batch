@@ -6,7 +6,7 @@ import React from "react";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-gray-50 pt-12 container px-4 mx-auto">
+      <body className="bg-gradient-to-b from-green-50 to-green-100 overflow-x-hidden ">
       {children}
       <NewsLetter/>
       <Footer/>
